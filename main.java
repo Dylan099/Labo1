@@ -16,3 +16,11 @@ public static void primo(int numero)
 	System.out.println("No es primo");
 	}
 }
+
+public static int factorialRecursivo(int num){
+        if(num==1 || num==0){
+            return 1;
+        }else{
+            return factorialRecursivo(num-1)*num;
+        }
+    }
